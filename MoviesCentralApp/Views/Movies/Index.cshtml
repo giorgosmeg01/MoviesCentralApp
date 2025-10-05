@@ -1,0 +1,147 @@
+﻿@model MoviesCentralApp.Models.MovieGenreViewModel
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <style>
+
+        /* Set font family */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+        }
+
+        /* Style the table headers */
+        .table thead th {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            font-weight: bold;
+        }
+
+        .table {
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .details-row {
+            background-color: #1f1f1f; /* Dark gray */
+        }
+
+        /* Style the director's image */
+        .director-image {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .director-link:hover {
+            background-color: #f5c518; /* IMDb yellow */
+        }
+
+        /* Style the movie poster image */
+        .poster-image {
+            max-height: 300px;
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Style the buttons */
+        .btn {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+            .btn:hover {
+                background-color: #d4a517; /* Darker IMDb yellow */
+            }
+
+        .centered-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Add some top margin if needed */
+        }
+
+        .form-container {
+            background-color: #1f1f1f; /* Slightly lighter dark gray */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="form-container">
+    <h1 class="text-center my-4">Movies Index</h1>
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <a asp-action="Create" class="btn btn-primary">Add Movie</a>
+        </div>
+        <div class="col-md-8">
+            <form asp-controller="Movies" asp-action="Index" method="get" class="form-inline">
+                <div class="form-group mr-2">
+                    <select asp-for="MovieGenre" asp-items="Model.Genres" class="form-control">
+                        <option value="">All</option>
+                    </select>
+                </div>
+                <div class="form-group mr-2">
+                    <input type="text" asp-for="SearchString" placeholder="Search by title" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-secondary">Filter</button>
+            </form>
+        </div>
+    </div>
+    
+    <a asp-action="Index" asp-controller="MoviesActors" class="btn btn-sm btn-primary">User Home Page</a>
+
+    <table class="table table-striped imdb-light">
+        <thead class="thead-dark">
+            <tr>
+                <th>Title</th>
+                <th>Release Date</th>
+                <th>Genre</th>
+                <th>Director</th>
+                <th>Description</th>
+                <th>Poster</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Movies)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.ReleaseDate</td>
+                    <td>@item.Genre</td>
+                    <td>@item.Director</td>
+                    <td>@item.Description</td>
+                    <td><img src="@item.Posturl" alt="@item.Title" class="img-fluid" style="max-width: 100px; height: auto;" /></td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Movieid" class="btn btn-sm btn-primary">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Movieid" class="btn btn-sm btn-info">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.Movieid" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+</body>
+

@@ -1,0 +1,148 @@
+﻿@model MoviesCentralApp.Models.User
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+    /* Adjust styles to match IMDb UI */
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        padding-top: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        background-color: #1c1c1c;
+        border: 1px solid #383838;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #f5c518; /* IMDb yellow */
+        color: #121212;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #d4b106; /* Darker IMDb yellow on hover */
+        }
+
+    .text-danger {
+        color: #ff6347; /* Red */
+    }
+
+    .register-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .register-form {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .register-title {
+        text-align: center;
+    }
+
+    .btn-register {
+        background-color: #f5c518; /* IMDb yellow */
+        color: #000; /* Black text */
+    }
+
+</style>
+
+<div class="register-container">
+    <div class="register-form">
+        <h1 class="register-title">Register</h1>
+        <hr />
+        <form asp-action="Register">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Userid" id="useridInput" />
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" placeholder="Username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" type="email" placeholder="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" type="password" placeholder="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-register btn-block" />
+            </div>
+        </form>
+        <h8>Already have an account?</h8>
+        <div>
+            <a asp-area="" asp-controller="Account" asp-action="Login">Login Here</a>
+        </div>
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-info">
+                @TempData["Message"]
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    // Generate a random unique Userid within the limits of a signed 32-bit integer
+    function generateRandomUserId() {
+        var randomUserId;
+        do {
+            // Generate random positive integer within the range of a signed 32-bit integer
+            randomUserId = Math.floor(Math.random() * (Math.pow(2, 31) - 1));
+        } while (document.getElementById("useridInput").value == randomUserId);
+
+        document.getElementById("useridInput").value = randomUserId;
+    }
+
+    // Call the function on page load
+    window.onload = function () {
+        generateRandomUserId();
+    };
+</script>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

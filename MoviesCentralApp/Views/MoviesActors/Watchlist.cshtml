@@ -1,0 +1,21 @@
+﻿@model List<Movie>
+@{
+    ViewData["Title"] = "Watchlist";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Watchlist</h1>
+
+@if (Model.Any())
+{
+    <ul>
+        @foreach (var movie in Model)
+        {
+            <li>@movie.Title</li>
+        }
+    </ul>
+}
+else
+{
+    <p>Your watchlist is empty.</p>
+}

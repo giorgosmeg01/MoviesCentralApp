@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "AdminLoginView";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View</title>
+    <style>
+        /* IMDb UI styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+            margin: 0;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+            position: relative; /* Required for stacking content */
+        }
+
+        .blur-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        h1 {
+            color: #f5c518; /* IMDb yellow */
+        }
+
+        .container-fluid {
+            padding-top: 50px; /* Adjust top padding for better spacing */
+        }
+
+        .row {
+            justify-content: center;
+        }
+
+        .col-md-8 {
+            background-color: rgba(33, 33, 33, 0.8); /* Semi-transparent background */
+            border-radius: 10px;
+            padding: 20px;
+            position: relative; /* Required for stacking content on top */
+            z-index: 1; /* Ensure content is above blurred background */
+        }
+    </style>
+</head>
+
+<img class="blur-background" src="~/Images/websiteback2.jpg" alt="Blurry Background">
+
+<body>
+
+
+    <div class="text-center">
+        <img src="~/Images/moviesearch.gif" alt="Movie GIF" class="img-fluid mt-4" style="max-width: 400px;">
+        <h1>Movies Central admin page</h1>
+
+    </div>
+
+</body>
+</html>
+

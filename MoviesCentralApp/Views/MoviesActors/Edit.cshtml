@@ -1,0 +1,100 @@
+﻿@model MoviesCentralApp.Models.MoviesActor
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light grey background */
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height viewport */
+        }
+
+        .form-content {
+            width: 100%;
+            max-width: 500px; /* Adjust the max width as needed */
+            background-color: #121212; /* Dark grey background */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+            .form-content h4 {
+                font-size: 1.5rem;
+                text-align: center;
+                margin-bottom: 20px;
+                color: #f5c518;
+            }
+
+        .form-control {
+            width: 100%;
+            height: calc(2.5em + 0.75rem + 2px); /* Increase height of input fields */
+            font-size: 1rem;
+            border: 1px solid #ccc; /* Light grey border */
+            border-radius: 4px;
+            padding: 0.375rem 0.75rem;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-size: 1rem;
+            color: #f5c518;
+        }
+
+        .btn {
+            width: 100%;
+            font-size: 1rem;
+            padding: 0.75rem;
+            background-color: #f5c518; /* Yellow background */
+            color: #121212; /* Dark grey text */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #d4ac0d; /* Darker yellow on hover */
+                color: #fff; /* White text on hover */
+            }
+    </style>
+</head>
+
+<body>
+<div class="form-container">
+    <div class="form-content">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Maid" />
+            <div class="form-group">
+                <label asp-for="Movieid" class="control-label"></label>
+                <select asp-for="Movieid" class="form-control" asp-items="ViewBag.Movieid"></select>
+                <span asp-validation-for="Movieid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Actorid" class="control-label"></label>
+                <select asp-for="Actorid" class="form-control" asp-items="ViewBag.Actorid"></select>
+                <span asp-validation-for="Actorid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "LoginView";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+@if (TempData["Message"] != null)
+{
+
+    <div class="text-center">
+        <img src="~/Images/moviesearch.gif" alt="Movie GIF" class="img-fluid mt-4" style="max-width: 400px;">
+        <h1>Movie Time!</h1>
+        <p>Explore different movies and the latest releases <a href="~/MoviesActors/Index" class="here-link">here</a></p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+}
+
+
+<style>
+    .text-center {
+        text-align: center;
+    }
+
+    .here-link:hover {
+        color: yellow;
+        text-decoration: none; /* Remove underline on hover */
+    }
+
+</style>

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<MoviesCentralApp.Models.Comment>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <style>
+        /* IMDb-style CSS for comments index */
+        .table {
+            margin-top: 20px;
+        }
+
+            .table th {
+                background-color: #f5c518; /* IMDb yellow */
+                color: #000; /* Black text */
+                font-weight: bold;
+            }
+
+            .table td {
+                color: #ffffff; /* White text */
+            }
+
+        .btn {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            margin-right: 5px;
+        }
+
+            .btn:hover {
+                background-color: #f5d27d; /* Lighter IMDb yellow on hover */
+                color: #000; /* Black text */
+            }
+    </style>
+</head>
+
+<h1>Comments</h1>
+
+<p>
+    <a asp-action="Create" asp-controller="Comments" asp-route-movieId="@Model.FirstOrDefault()?.Movie.Movieid" class="btn btn-primary">Add Comment</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">User</th>
+                <th scope="col">Comment</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.User.Username)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Comment1)</td>
+                    <td>
+                        @if(ViewBag.UserId == 11)
+                        {
+                          
+                            <a asp-action="Delete" asp-route-id="@item.Commentid" class="btn btn-sm btn-danger">Delete</a>
+                        }
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="text-center">
+    <a asp-action="Index" asp-controller="MoviesActors"  class="btn btn-secondary">Back to movie page</a>
+</div>

@@ -1,0 +1,908 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MoviesCentralApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\comments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\comments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\comments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\comments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\ratings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\ratings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\shared\\admin_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\shared\\admin_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\actors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\actors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\moviesactors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\moviesactors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\moviesactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\moviesactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\actors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\actors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\ratings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\ratings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\ratings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\ratings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\comments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\comments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\moviesactors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\moviesactors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\actors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\actors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\admin\\adminloginview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\admin\\adminloginview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\adminview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\adminview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\moviesactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\moviesactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\moviesactors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\moviesactors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\loginview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\loginview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\moviesactors\\actordetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\moviesactors\\actordetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\ratings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\ratings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\moviesactors\\directordetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\moviesactors\\directordetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\directorsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\directorsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\models\\mylogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\models\\mylogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\models\\moviescentraldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\models\\moviescentraldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\actors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\actors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\actors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\actors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\models\\moviesactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\models\\moviesactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\moviesactors\\watchlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\moviesactors\\watchlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\models\\directorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\models\\directorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\models\\moviedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\models\\moviedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\models\\moviegenreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\models\\moviegenreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|c:\\moviescentralapp\\moviescentralapp\\views\\shared\\displaytemp\\actor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5709C8-7B83-472D-8F88-70B5947D2263}|MoviesCentralApp\\MoviesCentralApp.csproj|solutionrelative:moviescentralapp\\views\\shared\\displaytemp\\actor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAwH4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAwEoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T15:46:52.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Ratings\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Ratings\\Index.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Ratings\\Index.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Ratings\\Index.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAwIcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\MoviesActors\\Create.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Create.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\MoviesActors\\Create.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAwE4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Actors\\Create.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Create.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Actors\\Create.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEwAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin_Layout.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Shared\\Admin_Layout.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Shared\\Admin_Layout.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Shared\\Admin_Layout.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Shared\\Admin_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\CommentsController.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAuwL4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Comments\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Comments\\Create.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Comments\\Create.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Comments\\Create.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Comments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Comments\\Delete.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Comments\\Delete.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Comments\\Delete.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T08:02:09.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Movies\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Movies\\Create.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Movies\\Create.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Movies\\Create.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFoAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Ratings\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Ratings\\Create.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Ratings\\Create.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Ratings\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Ratings\\Details.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Ratings\\Details.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Ratings\\Details.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Ratings\\Details.cshtml",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAwGsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T15:10:37.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Comments\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Comments\\Index.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Comments\\Index.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Comments\\Index.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAwEoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\MoviesActors\\Index.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Index.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\MoviesActors\\Index.cshtml",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAAAMIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Actors\\Index.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Index.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Actors\\Index.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAwIQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminView.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\AdminView.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\AdminView.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\AdminView.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\AdminView.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAQwEkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\MoviesActors\\Edit.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Edit.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\MoviesActors\\Edit.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAYwEcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T13:13:45.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Actors\\Edit.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Edit.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Actors\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T14:22:46.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T11:45:49.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminLoginView.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Admin\\AdminLoginView.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Admin\\AdminLoginView.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Admin\\AdminLoginView.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Admin\\AdminLoginView.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T11:50:59.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T11:16:11.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MoviesActorsController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\MoviesActorsController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\MoviesActorsController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\MoviesActorsController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\MoviesActorsController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAuwHoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginView.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\LoginView.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\LoginView.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\LoginView.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\LoginView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ActorDetails.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\ActorDetails.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\MoviesActors\\ActorDetails.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\ActorDetails.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\MoviesActors\\ActorDetails.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAkwKIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Details.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\MoviesActors\\Details.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Details.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\MoviesActors\\Details.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RatingsController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\RatingsController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\RatingsController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\RatingsController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\RatingsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Ratings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Ratings\\Delete.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Ratings\\Delete.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Ratings\\Delete.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T15:14:56.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DirectorDetails.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\DirectorDetails.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\MoviesActors\\DirectorDetails.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\DirectorDetails.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\MoviesActors\\DirectorDetails.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAHsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DirectorsView.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\DirectorsView.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\DirectorsView.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\DirectorsView.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\DirectorsView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MyLogin.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MyLogin.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Models\\MyLogin.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MyLogin.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Models\\MyLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MoviesCentralDBContext.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MoviesCentralDBContext.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Models\\MoviesCentralDBContext.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MoviesCentralDBContext.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Models\\MoviesCentralDBContext.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAUwFsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAowFkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Details.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Actors\\Details.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Details.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Actors\\Details.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T14:29:42.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Actors\\Delete.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Actors\\Delete.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Actors\\Delete.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowFUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T14:36:19.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwFMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T12:21:40.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\appsettings.json",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\appsettings.json",
+              "RelativeToolTip": "MoviesCentralApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-14T14:08:25.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Program.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Program.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Program.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\Actor.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Models\\Actor.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\Actor.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Models\\Actor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MoviesActor.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MoviesActor.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Models\\MoviesActor.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MoviesActor.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Models\\MoviesActor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Watchlist.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Watchlist.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\MoviesActors\\Watchlist.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\MoviesActors\\Watchlist.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\MoviesActors\\Watchlist.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DirectorViewModel.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\DirectorViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Models\\DirectorViewModel.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\DirectorViewModel.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Models\\DirectorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Movies\\Details.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Movies\\Details.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ActorsController.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\ActorsController.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Controllers\\ActorsController.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Controllers\\ActorsController.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Controllers\\ActorsController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MovieDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MovieDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Models\\MovieDetailsViewModel.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MovieDetailsViewModel.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Models\\MovieDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MovieGenreViewModel.cs",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MovieGenreViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Models\\MovieGenreViewModel.cs",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Models\\MovieGenreViewModel.cs",
+              "RelativeToolTip": "MoviesCentralApp\\Models\\MovieGenreViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T14:08:25.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Actor.cshtml",
+              "DocumentMoniker": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Shared\\DisplayTemp\\Actor.cshtml",
+              "RelativeDocumentMoniker": "MoviesCentralApp\\Views\\Shared\\DisplayTemp\\Actor.cshtml",
+              "ToolTip": "C:\\MoviesCentralApp\\MoviesCentralApp\\Views\\Shared\\DisplayTemp\\Actor.cshtml",
+              "RelativeToolTip": "MoviesCentralApp\\Views\\Shared\\DisplayTemp\\Actor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:08:25.625Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

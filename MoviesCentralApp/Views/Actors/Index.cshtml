@@ -1,0 +1,133 @@
+﻿@model IEnumerable<MoviesCentralApp.Models.Actor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <style>
+        
+        /* Set font family */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+        }
+
+        /* Style the table headers */
+        .table thead th {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            font-weight: bold;
+        }
+
+        .table {
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .details-row {
+            background-color: #1f1f1f; /* Dark gray */
+        }
+
+        /* Style the director's image */
+        .director-image {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .director-link:hover {
+            background-color: #f5c518; /* IMDb yellow */
+        }
+
+        /* Style the movie poster image */
+        .poster-image {
+            max-height: 300px;
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Style the buttons */
+        .btn {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+            .btn:hover {
+                background-color: #d4a517; /* Darker IMDb yellow */
+            }
+
+            .btn-primary{
+                width: 30%;
+            }
+
+        .centered-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Add some top margin if needed */
+        }
+
+    
+    </style>
+</head>
+
+<body>
+
+<div class="centered-button">
+<p>
+    <a asp-action="Create" class="btn">Add actor</a>
+</p>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fullname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photourl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fullname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Photourl)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Actorid" class="btn">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Actorid" class="btn">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Actorid" class="btn">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+<br />
+<br /> 
+<div class="text-center">
+    <a href="@Url.Action("AdminLoginView", "Admin")" class="btn btn-primary">Back</a>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />

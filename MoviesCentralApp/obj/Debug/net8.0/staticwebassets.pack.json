@@ -1,0 +1,457 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MoviesCentralApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MoviesCentralApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Bruce Willis.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Bruce Willis.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Christian Bale.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Christian Bale.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Elijah Wood.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Elijah Wood.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Jamie Foxx.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Jamie Foxx.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\John Travolta.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\John Travolta.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Kate Winslet.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Kate Winslet.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Keanu Reeves.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Keanu Reeves.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Leonardo DiCaprio.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Leonardo DiCaprio.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Liam Neeson.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Liam Neeson.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Marlon Brando.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Marlon Brando.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Morgan Freeman.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Morgan Freeman.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Samuel L. Jackson.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Samuel L. Jackson.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\ActorsBio\\Tom Hanks.txt",
+      "PackagePath": "staticwebassets\\ActorsBio\\Tom Hanks.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\Christopher Nolan.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\Christopher Nolan.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\Francis Ford Coppola.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\Francis Ford Coppola.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\Frank Darabont.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\Frank Darabont.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\James Cameron.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\James Cameron.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\Peter Jackson.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\Peter Jackson.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\Quentin Tarantino.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\Quentin Tarantino.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\Robert Zemeckis.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\Robert Zemeckis.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\Steven Spielberg.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\Steven Spielberg.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorImages\\The Wachowskis.jpg",
+      "PackagePath": "staticwebassets\\DirectorImages\\The Wachowskis.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\Christopher Nolan.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\Christopher Nolan.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\Francis Ford Coppola.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\Francis Ford Coppola.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\Frank Darabont.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\Frank Darabont.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\James Cameron.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\James Cameron.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\Peter Jackson.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\Peter Jackson.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\Quentin Tarantino.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\Quentin Tarantino.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\Robert Zemeckis.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\Robert Zemeckis.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\Steven Spielberg.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\Steven Spielberg.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\DirectorsBio\\The Wachowskis.txt",
+      "PackagePath": "staticwebassets\\DirectorsBio\\The Wachowskis.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\Images\\moviesearch.gif",
+      "PackagePath": "staticwebassets\\Images\\moviesearch.gif"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\Images\\popcorn.jpg",
+      "PackagePath": "staticwebassets\\Images\\popcorn.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\Images\\popcorngif.gif",
+      "PackagePath": "staticwebassets\\Images\\popcorngif.gif"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\Images\\star.jpg",
+      "PackagePath": "staticwebassets\\Images\\star.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\Images\\websiteback.jpg",
+      "PackagePath": "staticwebassets\\Images\\websiteback.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\Images\\websiteback2.jpg",
+      "PackagePath": "staticwebassets\\Images\\websiteback2.jpg"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\Django Unchained.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\Django Unchained.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\Forrest Gump.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\Forrest Gump.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\Inception.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\Inception.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\Pulp Fiction.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\Pulp Fiction.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\Schindlers List.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\Schindlers List.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\The Dark Knight.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\The Dark Knight.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\The Godfather.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\The Godfather.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\The Lord of the Rings The Fellowship of the Ring.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\The Lord of the Rings The Fellowship of the Ring.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\The Matrix.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\The Matrix.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\The Shawshank Redemption.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\The Shawshank Redemption.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\MovieTrailers\\Titanic.txt",
+      "PackagePath": "staticwebassets\\MovieTrailers\\Titanic.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\MoviesCentralApp\\MoviesCentralApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MoviesCentralApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MoviesCentralApp.props",
+      "PackagePath": "build\\MoviesCentralApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MoviesCentralApp.props",
+      "PackagePath": "buildMultiTargeting\\MoviesCentralApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MoviesCentralApp.props",
+      "PackagePath": "buildTransitive\\MoviesCentralApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

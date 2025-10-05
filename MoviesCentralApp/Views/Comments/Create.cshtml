@@ -1,0 +1,126 @@
+﻿@model MoviesCentralApp.Models.Comment
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<head>
+    <style>
+        /* Add the CSS styles here */
+        /* Set font family */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+        }
+
+        /* Style form labels */
+        label {
+            color: #f5c518; /* IMDb yellow */
+        }
+
+        /* Style form input fields */
+        .form-control {
+            background-color: #212121; /* Darker gray */
+            border: 1px solid #f5c518; /* IMDb yellow border */
+            color: #ffffff; /* White text */
+        }
+
+            /* Style form input fields on focus */
+            .form-control:focus {
+                background-color: #121212; /* Dark gray */
+                border-color: #f5c518; /* IMDb yellow */
+                color: #ffffff; /* White text */
+            }
+
+            /* Style form input fields on hover */
+            .form-control:hover {
+                background-color: #212121; /* Darker gray */
+                border-color: #f5c518; /* IMDb yellow */
+                color: #ffffff; /* White text */
+            }
+
+        /* Style form submit button */
+        .btn-primary {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            border: none; /* Remove border */
+        }
+
+            /* Style form submit button on hover */
+            .btn-primary:hover {
+                background-color: #d4ac0d; /* Darker IMDb yellow */
+                color: #000; /* Black text */
+            }
+
+        /* Add margin to form */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        /* Add margin to the "Back to List" link */
+        div > a {
+            margin-top: 20px;
+            color: #f5c518; /* IMDb yellow */
+        }
+
+        /* Style validation summary */
+        .text-danger {
+            color: #ff0000; /* Red text */
+        }
+    </style>
+</head>
+
+
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h4 class="text-center">Leave Comment</h4>
+            <hr />
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group" style="display: none;">
+                    <label asp-for="Commentid" class="control-label"></label>
+                    <input id="commentIdInput" asp-for="Commentid" class="form-control" readonly="readonly" value="@ViewBag.CommentId" type="hidden" />
+                    <span asp-validation-for="Commentid" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="display: none;">
+                    <label asp-for="Userid" class="control-label"></label>
+                    <input id="Userid" asp-for="Userid" class="form-control" readonly value="@((int)Context.Session.GetInt32("UserId"))" type="hidden" />
+                </div>
+                <div class="form-group" style="display: none;">
+                    <label asp-for="Movieid" class="control-label"></label>
+                    <input id="Movieid" asp-for="Movieid" class="form-control" readonly type="hidden" />
+                </div>
+                <div class="form-group">
+                    <textarea asp-for="Comment1" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Comment1" class="text-danger"></span>
+                </div>
+                <div class="form-group text-center">
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        // Get the movieId from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const movieId = urlParams.get('movieId');
+
+        // Set the value of the Movieid input field to the movieId
+        document.getElementById('Movieid').value = movieId;
+    </script>
+
+}

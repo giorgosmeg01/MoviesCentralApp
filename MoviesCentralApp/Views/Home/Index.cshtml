@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Movies Central!</h1>
+    <img src="~/Images/popcorngif.gif" alt="Popcorn GIF" class="img-fluid mt-4" style="max-width: 200px;">
+    <p>Please <a asp-action="Login" asp-controller="Account" class="login-link">login</a> or <a asp-action="Register" asp-controller="Account" class="register-link">register</a> to continue</p>
+</div>
+
+<style>
+    /* CSS to change text color on hover */
+    .login-link:hover, .register-link:hover {
+        color: yellow;
+    }
+</style>

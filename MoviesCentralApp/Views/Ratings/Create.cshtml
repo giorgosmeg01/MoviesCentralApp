@@ -1,0 +1,206 @@
+﻿@model MoviesCentralApp.Models.Rating
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Rating</title>
+    <style>
+
+        /* Add the CSS styles here */
+        /* Set font family */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+        }
+
+        /* Style form labels */
+        label {
+            color: #f5c518; /* IMDb yellow */
+        }
+
+        /* Style form input fields */
+        .form-control {
+            background-color: #212121; /* Darker gray */
+            border: 1px solid #f5c518; /* IMDb yellow border */
+            color: #ffffff; /* White text */
+        }
+
+            /* Style form input fields on focus */
+            .form-control:focus {
+                background-color: #121212; /* Dark gray */
+                border-color: #f5c518; /* IMDb yellow */
+                color: #ffffff; /* White text */
+            }
+
+            /* Style form input fields on hover */
+            .form-control:hover {
+                background-color: #212121; /* Darker gray */
+                border-color: #f5c518; /* IMDb yellow */
+                color: #ffffff; /* White text */
+            }
+
+        /* Style form submit button */
+        .btn-primary {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            border: none; /* Remove border */
+        }
+
+            /* Style form submit button on hover */
+            .btn-primary:hover {
+                background-color: #d4ac0d; /* Darker IMDb yellow */
+                color: #000; /* Black text */
+            }
+
+        /* Add margin to form */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        /* Add margin to the "Back to List" link */
+        div > a {
+            margin-top: 20px;
+            color: #f5c518; /* IMDb yellow */
+        }
+
+        /* Style validation summary */
+        .text-danger {
+            color: #ff0000; /* Red text */
+        }
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            font-size: 2em; /* Adjust the font size to make the stars bigger */
+        }
+
+        .star {
+            cursor: pointer;
+            transition: color 0.3s ease; /* Add transition effect for smooth color change */
+        }
+
+        /* Center the form */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+
+        /* Adjust form width */
+        .form-container {
+            width: 300px; /* Adjust the width to your preference */
+            padding: 20px;
+            background-color: #212121; /* Darker gray */
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-container bg-dark p-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h4 class="text-center">Rate Movie</h4>
+                    <hr />
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group" style="display: none;">
+                            <label asp-for="Ratingid" class="control-label"></label>
+                            <input id="ratingIdInput" asp-for="Ratingid" class="form-control" readonly="readonly" value="@ViewBag.RatingId" type="hidden" />
+                            <span asp-validation-for="Ratingid" class="text-danger"></span>
+                        </div>
+                        <div class="form-group" style="display: none;">
+                            <label asp-for="Movieid" class="control-label"></label>
+                            <input id="movieIdInput" asp-for="Movieid" class="form-control" readonly="readonly" type="hidden" />
+                            <span asp-validation-for="Movieid" class="text-danger"></span>
+                        </div>
+                        <div class="form-group" style="display:none;">
+                            <label asp-for="Userid" class="control-label"></label>
+                            <input id="Userid" asp-for="Userid" class="form-control" readonly type="hidden" />
+                        </div>
+                        <div class="form-group" id="starRating">
+                            <label class="control-label"></label>
+                            <div class="stars" data-rating="0">
+                                <span class="star" data-value="1">&#9733;</span>
+                                <span class="star" data-value="2">&#9733;</span>
+                                <span class="star" data-value="3">&#9733;</span>
+                                <span class="star" data-value="4">&#9733;</span>
+                                <span class="star" data-value="5">&#9733;</span>
+                                <span class="star" data-value="6">&#9733;</span>
+                                <span class="star" data-value="7">&#9733;</span>
+                                <span class="star" data-value="8">&#9733;</span>
+                                <span class="star" data-value="9">&#9733;</span>
+                                <span class="star" data-value="10">&#9733;</span>
+                            </div>
+                            <input asp-for="Rating1" id="ratingValue" class="form-control" type="hidden" />
+                            <span asp-validation-for="Rating1" class="text-danger"></span>
+                        </div>
+                        <div class="form-group text-center">
+                            <input type="submit" value="Submit" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const stars = document.querySelectorAll('.star');
+            const ratingValue = document.getElementById('ratingValue');
+
+            stars.forEach((star) => {
+                star.addEventListener('click', () => {
+                    const value = parseInt(star.getAttribute('data-value'));
+                    ratingValue.value = value; // Set the rating value to the hidden input
+                    stars.forEach((s, i) => {
+                        if (i < value) {
+                            s.style.color = 'yellow'; // Change color to yellow for selected stars
+                        } else {
+                            s.style.color = ''; // Reset color for unselected stars
+                        }
+                    });
+                });
+            });
+        });
+
+
+        // Get the movieId parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const movieId = urlParams.get('movieId');
+        const userId = '@ViewBag.UserId';
+
+        // Set the movieId value in the input field
+        document.getElementById('movieIdInput').value = movieId;
+        document.getElementById('Userid').value = userId;
+
+       
+        
+
+    </script>
+
+}
+
+

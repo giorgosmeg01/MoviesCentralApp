@@ -1,0 +1,88 @@
+﻿@model MoviesCentralApp.Models.Actor
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <style>
+        /* Set font family */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+        }
+
+        /* Style the form container */
+        .form-container {
+            background-color: #1f1f1f; /* Slightly lighter dark gray */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .form-group label {
+            color: #f5c518; /* IMDb yellow */
+        }
+
+        .form-control {
+            background-color: #2c2c2c; /* Darker gray */
+            color: #ffffff; /* White text */
+            border: 1px solid #444; /* Dark border */
+        }
+
+            .form-control:focus {
+                border-color: #f5c518; /* IMDb yellow */
+                box-shadow: 0 0 5px #f5c518;
+            }
+
+        .btn-primary {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            border: none;
+        }
+
+            .btn-primary:hover {
+                background-color: #d4a517; /* Darker IMDb yellow */
+            }
+
+        .btn-back {
+            color: #f5c518; /* IMDb yellow */
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+            .btn-back:hover {
+                color: #d4a517; /* Darker IMDb yellow */
+            }
+
+        .text-danger {
+            color: #e74c3c; /* Red color for validation errors */
+        }
+    </style>
+</head>
+
+<h1>Details</h1>
+
+<div class="form-container">
+    <h4>Actor</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fullname)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Fullname)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Photourl)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Photourl)
+        </dd>
+    </dl>
+</div>
+<div>
+   
+    
+</div>

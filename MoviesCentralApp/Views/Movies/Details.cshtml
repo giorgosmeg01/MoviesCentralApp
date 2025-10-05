@@ -1,0 +1,82 @@
+﻿@model MoviesCentralApp.Models.Movie
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@{
+    TempData["Ma"] = Model.Movieid;
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Genre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Genre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Director)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Director)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Posturl)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Posturl)
+        </dd>
+        
+    </dl>
+</div>
+
+<div>
+    <h4>Actors</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Actor Name</th>
+                <!-- Add other actor details headers as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movieActor in Model.MoviesActors)
+            {
+                <tr>
+                    <td>@Html.DisplayNameFor(model => movieActor.Actor.Fullname)</td>
+                    <td>@Html.DisplayFor(model => movieActor.Actor.Actorid)</td>
+                    <!-- Access other actor details using movieActor.Actor -->
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Movieid">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

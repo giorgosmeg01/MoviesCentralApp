@@ -1,0 +1,173 @@
+﻿
+@{
+    ViewData["Title"] = "ActorDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using System.Text;
+
+<style>
+    /* Adjust styles to match IMDb UI */
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .container {
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .bio-container {
+        background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    /* Style the buttons */
+    .btn {
+        background-color: #f5c518; /* IMDb yellow */
+        color: #000; /* Black text */
+    }
+
+
+    .movie-posters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center; /* Vertically center items */
+        gap: 20px; /* Adjust the gap between posters */
+    }
+
+    .movie-poster img {
+        border-radius: 0; /* Remove rounding effect */
+    }
+
+    .movies-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .movie {
+        flex: 0 0 auto;
+        width: 150px; /* Adjust the width as needed */
+    }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+        }
+
+        .movie p {
+            text-align: center;
+        }
+
+</style>
+
+
+<div class="container">
+
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <img src="@ViewBag.PhotoUrl" alt="Actor Image" class="img-fluid" style="width: 300px; height: auto;" />
+        </div>
+    </div>
+
+    <div class="bio-container">
+        @{
+            string bio = ViewBag.ActorBio;
+            int wordsPerParagraph = 100;
+            int wordsCount = 0;
+
+            StringBuilder paragraphBuilder = new StringBuilder();
+            StringBuilder currentParagraph = new StringBuilder();
+
+            foreach (string word in bio.Split(' '))
+            {
+                currentParagraph.Append(word);
+                currentParagraph.Append(" ");
+                wordsCount++;
+
+                if (wordsCount >= wordsPerParagraph && word.Contains('.'))
+                {
+                    paragraphBuilder.Append("<p>");
+                    paragraphBuilder.Append(currentParagraph);
+                    paragraphBuilder.Append("</p>");
+                    currentParagraph.Clear();
+                    wordsCount = 0;
+                }
+                else if (wordsCount >= wordsPerParagraph)
+                {
+                    // Find the index of the last period in the current paragraph
+                    int lastPeriodIndex = currentParagraph.ToString().LastIndexOf('.');
+                    if (lastPeriodIndex != -1)
+                    {
+                        string paragraphText = currentParagraph.ToString().Substring(0, lastPeriodIndex + 1);
+                        paragraphBuilder.Append("<p>");
+                        paragraphBuilder.Append(paragraphText);
+                        paragraphBuilder.Append("</p>");
+
+                        // Remove the processed part from the current paragraph
+                        currentParagraph.Remove(0, lastPeriodIndex + 1);
+                        wordsCount = 0;
+                    }
+                }
+            }
+
+            // Add the final paragraph
+            if (currentParagraph.Length > 0)
+            {
+                paragraphBuilder.Append("<p>");
+                paragraphBuilder.Append(currentParagraph);
+                paragraphBuilder.Append("</p>");
+            }
+
+            string formattedBio = paragraphBuilder.ToString();
+            @Html.Raw(formattedBio)
+        }
+    </div>
+
+    
+    
+
+</div>
+
+
+<h2>Movies featuring @ViewBag.ActorName:</h2>
+<div class="movies-list">
+    @foreach (var movie in ViewBag.Movies)
+    {
+        <div class="movie">
+            <a href="@Url.Action("Index", "MoviesActors", new { searchString = movie.Title })">
+                <img src="@movie.Posturl" alt="@movie.Title" style="border-radius: 0;" />
+            </a>
+        </div>
+    }
+</div>
+
+<div class="text-center">
+    <a asp-controller="MoviesActors" asp-action="Index" class="btn">Back to Movies</a>
+</div>
+<br />
+<br />
+<br />
+<br />
+<p></p>
+

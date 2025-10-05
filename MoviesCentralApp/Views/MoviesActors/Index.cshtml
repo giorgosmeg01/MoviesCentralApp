@@ -1,0 +1,246 @@
+﻿@model IEnumerable<MoviesCentralApp.Models.MoviesActor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <style>
+        /* Add the CSS styles here */
+        /* Set font family */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+        }
+
+        /* Style the table headers */
+        .table thead th {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+            font-weight: bold;
+        }
+
+        .table {
+            background-color: #121212; /* Dark gray */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .details-row{
+
+            background-color: #1f1f1f; /* Dark gray */
+        }    
+
+        /* Style the director's image */
+        .director-image {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .director-link:hover {
+            background-color: #f5c518; /* IMDb yellow */
+        }
+
+            
+
+        /* Style the movie poster image */
+        .poster-image {
+            max-height: 300px;
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Style the buttons */
+        .btn {
+            background-color: #f5c518; /* IMDb yellow */
+            color: #000; /* Black text */
+        }
+
+        .btn-primary{
+            background-color: #121212;
+        }
+
+        .centered-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Add some top margin if needed */
+        }
+
+        
+
+    </style>
+</head>
+
+<h1 class="text-center">Home</h1>
+
+
+
+
+@if (ViewBag.UserId == 11)
+{
+    <div class="centered-button">
+       <p>
+        <a asp-action="Create" class="btn">Add movie</a>
+       </p>
+    </div>
+}
+
+
+<form asp-controller="MoviesActors" asp-action="Index" method="get">
+    <p class="text-center">
+        <label for="movieGenre">Genre:</label>
+        <select name="movieGenre" id="movieGenre" onchange="saveSelectedGenre()">
+            <option value="">Default</option>
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Biography">Biography</option>
+            <option value="Crime">Crime</option>
+            <option value="Drama">Drama</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+            <option value="Romance">Romance</option>
+            <option value="Western">Western</option>
+        </select>
+        <input type="submit" value="Apply" class="btn" />
+        &nbsp;
+        Title: <input type="text" name="searchString" value="@ViewBag.SearchString" />
+        <input type="submit" value="Search" class="btn" />
+        &nbsp;
+        <input type="submit" name="sortOrder" value="Highest Rating" class="btn" />
+    </p>
+</form>
+
+
+
+
+<table class="table">
+    <thead>
+        <tr class="details-row">
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.Title)
+            </th>
+            <th>
+                Poster
+            </th>
+            <th>
+                Rating
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.Director)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.ReleaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.Genre)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var encounteredMovieIds = new HashSet<int>();
+        }
+@foreach (var item in Model) {
+            if (!encounteredMovieIds.Contains(item.Movie.Movieid))
+            {
+                encounteredMovieIds.Add(item.Movie.Movieid);
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Movie.Title)
+                    </td>
+                    <td>
+                        <img src="@item.Movie.Posturl" alt="@item.Movie.Title" style="max-height: 300px; max-width: 300px; display: block; margin: 0 auto;" />
+                    </td>
+                    <td>
+                        @{
+                            double averageRating = item.Movie.Ratings.Any() ? item.Movie.Ratings.Average(r => (double)r.Rating1) : 0;
+                        }
+                        @averageRating.ToString("F2")
+                        <img src="~/Images/star.jpg" style="width: 40px; height: 30px;" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Movie.Director)<br />
+                        <a href="/MoviesActors/DirectorDetails?directorName=@item.Movie.Director" class="director-link"><img src="~/DirectorImages/@(item.Movie.Director).jpg" alt="@item.Movie.Director" style="width: 100px; height: auto; border-radius: 50%; display: block; margin: 0 auto;"></a>
+                        
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Movie.ReleaseDate)
+                    </td>
+                    <td>
+                       @Html.DisplayFor(modelItem => item.Movie.Genre)
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Create", "Ratings", new { movieId = item.Movie.Movieid })" class="btn">Rate Movie</a> 
+                        &nbsp;
+
+                        @if (ViewBag.UserId == 11)
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Maid" class="btn">Edit</a> 
+                        } 
+                        &nbsp;
+
+                        
+                        <a asp-action="Details" asp-route-id="@item.Maid" class="btn">Details</a> 
+                        &nbsp;
+                        
+                        @if (ViewBag.UserId == 11)
+                        {
+                            <a asp-action="" class="btn" type="hidden"></a>
+                        }
+
+                       
+                       
+                        
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@section scripts {
+    <script>
+        document.getElementById('sortByRatingBtn').addEventListener('click', function() {
+            var rows = document.querySelectorAll('tbody tr');
+            var sortedRows = Array.from(rows)
+                .sort((a, b) => {
+                    var ratingA = parseFloat(a.querySelector('td:nth-child(3)').innerText);
+                    var ratingB = parseFloat(b.querySelector('td:nth-child(3)').innerText);
+                    return ratingB - ratingA;
+                });
+            var tbody = document.querySelector('tbody');
+            tbody.innerHTML = '';
+            sortedRows.forEach(row => tbody.appendChild(row));
+        });
+
+    </script>
+
+    <script>
+        // Function to save selected genre to local storage
+        function saveSelectedGenre() {
+            var selectedGenre = document.getElementById("movieGenre").value;
+            localStorage.setItem("selectedGenre", selectedGenre);
+        }
+
+        // Function to set the saved genre as the selected option
+        function setSelectedGenre() {
+            var selectedGenre = localStorage.getItem("selectedGenre");
+            if (selectedGenre) {
+                document.getElementById("movieGenre").value = selectedGenre;
+            }
+        }
+
+        // Set the selected genre when the page loads
+        window.onload = setSelectedGenre;
+    </script>
+
+   
+
+}

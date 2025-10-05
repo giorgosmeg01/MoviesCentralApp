@@ -1,0 +1,200 @@
+﻿@model MoviesCentralApp.Models.MoviesActor 
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+
+
+<h1>@Html.DisplayFor(model => model.Movie.Title)</h1>
+
+<div class="container movie-details-container">
+    <div class="row">
+        <!-- Poster -->
+        <div class="col-md-4">
+            <h4>Poster</h4>
+            <hr />
+            <img src="@Model.Movie.Posturl" alt="@Model.Movie.Title" class="img-fluid" style="max-width: 300px; height: auto;" />
+        </div>
+        <!-- Trailer -->
+        <div class="col-md-8">
+            <h4>Trailer</h4>
+            <hr />
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="@ViewBag.TrailerUrl" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Description -->
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <h4>Description</h4>
+            <hr />
+            @Html.DisplayFor(model => model.Movie.Description)
+        </div>
+    </div>
+    <!-- Other Details -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h4>Details</h4>
+            <hr />
+            <dl>
+                <dt>Lead Actor</dt>
+                <dd><a href="/MoviesActors/ActorDetails?actorName=@Model.Actor.Fullname" class="director-link">@Html.DisplayFor(model => model.Actor.Fullname)</a></dd>
+                <dt>Movie Title</dt>
+                <dd>@Html.DisplayFor(model => model.Movie.Title)</dd>
+                <dt>Director</dt>
+                <dd>@Html.DisplayFor(model => model.Movie.Director)</dd>
+            </dl>
+            @if (ViewBag.OtherActors != null && ViewBag.OtherActors.Count > 0)
+            {
+                <h4>Other Actors in the Movie</h4>
+                <div class="d-flex flex-wrap">
+                    @foreach (var actor in ViewBag.OtherActors)
+                    {
+                        <div class="m-2 text-center">
+                            <img src="@actor.Photourl" alt="@actor.Fullname" class="rounded-circle" style="width: 120px; height: 150px;">
+                            <div><a href="/MoviesActors/ActorDetails?actorName=@actor.Fullname" class="director-link">@actor.Fullname</a></div>
+                        </div>
+                    }
+                </div>
+                
+            }
+        </div>
+        <div class="col-md-6">
+            <div>
+                <h4>Additional Details</h4>
+                <hr />
+                <dl>
+                    <dt>Genre</dt>
+                    <dd>@Html.DisplayFor(model => model.Movie.Genre)</dd>
+                    <dt>Release Date</dt>
+                    <dd>@Html.DisplayFor(model => model.Movie.ReleaseDate)</dd>
+                </dl>
+                <div>
+                    <a asp-action="Index" asp-controller="Comments" asp-route-movieId="@Model.Movie.Movieid" class="btn">Comments</a>
+                    @if (ViewBag.UserId == 11)
+                    {
+                       
+                    }
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h4>Recommendation</h4>
+        <hr />
+        @if (ViewBag.RecommendedMovies != null && ViewBag.RecommendedMovies.Count > 0)
+        {
+            <p>Here's other movies in the same genre:</p>
+            <div class="recommended-movies">
+                @foreach (var movie in ViewBag.RecommendedMovies)
+                {
+                    <div class="movie-item">
+                        <a href="@Url.Action("Index", "MoviesActors", new { searchString = movie.Title })"><img src="@movie.Posturl" alt="@movie.Title" class="img-fluid" style="max-width: 100px; height: auto;" /></a>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <p>No recommendation available.</p>
+        }
+    </div>
+</div><br /><br /><br /><br />
+
+
+
+<style>
+    .embed-responsive-16by9 {
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        position: relative;
+        height: 0;
+    }
+
+        .embed-responsive-16by9 iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+    .movie-details-container {
+        background-color: #121212; /* Dark grey */
+        color: #ffffff; /* White text */
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .row {
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        color: #f5c518; /* IMDb yellow */
+    }
+
+    hr {
+        border-color: #f5c518; /* IMDb yellow */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Style the buttons */
+    .btn {
+        background-color: #f5c518; /* IMDb yellow */
+        color: #000; /* Black text */
+    }
+
+    .recommended-movies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .movie-item {
+        margin-right: 20px; /* Adjust spacing between movie items */
+    }
+
+        .movie-item:last-child {
+            margin-right: 0; /* Remove margin for the last movie item */
+        }
+
+</style>
+
+
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('#addToWatchlistBtn').click(function () {
+                // AJAX request to add movie to watchlist
+                $.post('@Url.Action("AddToWatchlist", "MoviesActors", new { movieId = Model.Movieid })')
+                    .done(function (data) {
+                        if (data.success) {
+                            alert('Movie added to watchlist!');
+                        } else {
+                            alert('Failed to add movie to watchlist.');
+                        }
+                    })
+                    .fail(function () {
+                        alert('An error occurred while processing your request.');
+                    });
+            });
+        });
+    </script>
+}
+
+
+
+
