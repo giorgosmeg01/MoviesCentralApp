@@ -4,12 +4,12 @@ The app leverages .NET 8.0 for the backend, Entity Framework Core for ORM, and M
 
 # Features
 
---> Movie Catalog: Browse, search, and filter movies by title, genre, release year, or rating.
---> Detailed Views: Display movie info including synopsis, cast, crew, trailers, and user ratings.
---> User Authentication: Register, login, and manage profiles. 
---> Reviews and Ratings: Users can add reviews, rate movies (1-10 scale), and see average ratings.
---> Admin Panel: CRUD operations for movies, actors, and genres (role-based access).
---> Responsive Design: Built with Bootstrap for mobile-friendly UI.
+ Movie Catalog: Browse, search, and filter movies by title, genre, release year, or rating.
+ Detailed Views: Display movie info including synopsis, cast, crew, trailers, and user ratings.
+ User Authentication: Register, login, and manage profiles. 
+ Reviews and Ratings: Users can add reviews, rate movies (1-10 scale), and see average ratings.
+ Admin Panel: CRUD operations for movies, actors, and genres (role-based access).
+ Responsive Design: Built with Bootstrap for mobile-friendly UI.
 
 
 # Technologies Used
